@@ -14,6 +14,9 @@ The approach to this problem is to treat it as text classification while retaini
 <br/>
 The features obtained are concatenated and passed through another CNN and finally to output layer, which predicts the probability of each movie that a query might belong to.
 
+### Network
+![alt text](https://github.com/prateekvishnu/Portfolio/blob/main/NLP/SemanticMovieQAonMovieData/event_summary_classification.png?raw=true)
+
 ## Dependencies
 To successuflly run the project, the following deps are requried:
 1. Keras
