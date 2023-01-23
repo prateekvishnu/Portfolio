@@ -18,7 +18,7 @@ $ pip install -r requirements.txt
 
 ### Run Locally
 
-'''
+```
 $ python app.py
 ```
 
