@@ -43,7 +43,7 @@ This is required for the 2, 3 Neural Networks from the "Approach". The jar files
 **Note:** Events and NERs for the summaries have been generated already and they are used for training. If required to generate events/ners for new data, please be noted that it make take several minutes. 
 
 ### Setup Sent2vec:
-Once the sent2vec is installed, you are required to download the 16gb wiki_bigrams file and place it in the project root folder.
+Once the sent2vec is installed, you are required to download the 16 GB wiki_bigrams file and place it in the project root folder.
 
 ## Run
 1. Run `sentiment_cnn.py` to train the above discussed network. This would generate model and its params.
