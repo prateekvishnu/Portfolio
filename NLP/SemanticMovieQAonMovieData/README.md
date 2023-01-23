@@ -19,16 +19,16 @@ The features obtained are concatenated and passed through another CNN and finall
 
 ## Dependencies
 To successuflly run the project, the following deps are requried:
-1. Keras
-2. Numpy
+1. keras
+2. numpy
 3. pickle
-4. [Sent2Vec](https://github.com/epfml/sent2vec)
+4. [sent2Vec](https://github.com/epfml/sent2vec)
 5. [sent2vec_wiki_bigrams](sent2vec_wiki_bigrams )
-6. NLTK
+6. nltk
 7. [neuralcoref](https://github.com/huggingface/neuralcoref)
-8. Pandas
+8. pandas
 9. [pyjnius](https://github.com/kivy/pyjnius)
-10. k-parser
+10. [k-parser](https://github.com/arpit7123/Kparser)
 11. The jars (Event Extractor, NER Extractor) provided with the project
 
 ## Setup
@@ -46,8 +46,8 @@ This is required for the 2, 3 Neural Networks from the "Approach". The jar files
 Once the sent2vec is installed, you are required to download the 16gb wiki_bigrams file and place it in the project root folder.
 
 ## Run
-1. Run sentiment_cnn.py to train the above discussed network. This would generate model and its params.
-2. Run predict.py to predict on the queries in the ./data/test.txt file.
+1. Run `sentiment_cnn.py` to train the above discussed network. This would generate model and its params.
+2. Run `predict.py` to predict on the queries in the ./data/test.txt file.
 
 
 
