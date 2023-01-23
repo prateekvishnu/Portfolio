@@ -7,4 +7,19 @@ We focus on solving driver’s problems. Drivers want to have their revenue maxi
 ## Dashboard
 ![alt text](https://github.com/prateekvishnu/Portfolio/blob/main/Data%20Visualization/NYC%20Yellow%20Cabs%20Visualization%20Dashboard/Dashboard.png?raw=true)
 
+## To run the project locally
+### Installation
 
+Install with pip:
+
+```
+$ pip install -r requirements.txt
+```
+
+### Run Locally
+
+'''
+$ python app.py
+```
+
+Open http://127.0.0.1:5000/, **have fun**.
